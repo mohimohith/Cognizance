@@ -1,0 +1,81 @@
+html, body {
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+    background: linear-gradient(135deg,#2cc9f0,#f96ad1);
+}
+
+.container {
+  width: 360px;
+  margin-left: 460px;
+}
+
+#inputField,#inputField1,#inputField2 {
+  width: 300px;
+  height: 36px;
+  border-width: 0;
+  border: 3px inset rgb(144, 33, 241);
+  outline: none;
+  font-size: 15px;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+#addToDo {
+  height: 40px;
+  width: 60px;
+  border: 2px solid black;
+  vertical-align: middle;
+  font-size: 10px;
+  background-color: greenyellow;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left:120px;
+}
+#addToDo:hover{
+  background-color: #2cc9f0;
+  cursor: pointer;
+}
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+p{
+  color: rgb(255, 223, 129);
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.div-style{
+  border: 2px solid #4ce438;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 600px;
+}
+.paragraph1{
+  visibility: hidden;
+}
+.btn{
+  float: right;
+  background-color: rgb(175, 244, 72);
+  border: 3px solid black;
+  border-radius: 6px;
+}
+.btn:hover{
+  background-color : red;
+  cursor: pointer;
+}
+.adder{
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+#remain{
+  color:  rgb(246, 30, 30);
+}
